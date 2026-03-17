@@ -773,6 +773,18 @@ img {
     background: var(--surface2);
 }
 
+.portfolio__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.portfolio__item:hover .portfolio__image {
+    transform: scale(1.05);
+}
+
 .portfolio__overlay {
     position: absolute;
     inset: 0;
